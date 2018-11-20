@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bug Tracker  Samin", "Bug Tracker  Samin\Bug Tracker  Samin.csproj", "{EA984468-ABE1-4017-A389-E38714B59FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA984468-ABE1-4017-A389-E38714B59FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA984468-ABE1-4017-A389-E38714B59FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA984468-ABE1-4017-A389-E38714B59FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA984468-ABE1-4017-A389-E38714B59FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2910D10-463D-4E24-9B18-2CDDB21D6E44}
+	EndGlobalSection
+EndGlobal
