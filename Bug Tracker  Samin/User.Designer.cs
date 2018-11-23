@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewRepositoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addBugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewSolutionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewRepositoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,23 +56,25 @@
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.optionsToolStripMenuItem.Text = "Options";
             // 
-            // viewRepositoryToolStripMenuItem
-            // 
-            this.viewRepositoryToolStripMenuItem.Name = "viewRepositoryToolStripMenuItem";
-            this.viewRepositoryToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
-            this.viewRepositoryToolStripMenuItem.Text = "View Repository";
-            // 
             // addBugToolStripMenuItem
             // 
             this.addBugToolStripMenuItem.Name = "addBugToolStripMenuItem";
             this.addBugToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.addBugToolStripMenuItem.Text = "Add Bug";
+            this.addBugToolStripMenuItem.Click += new System.EventHandler(this.addBugToolStripMenuItem_Click);
             // 
             // viewSolutionToolStripMenuItem
             // 
             this.viewSolutionToolStripMenuItem.Name = "viewSolutionToolStripMenuItem";
             this.viewSolutionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.viewSolutionToolStripMenuItem.Text = "View Solution";
+            this.viewSolutionToolStripMenuItem.Click += new System.EventHandler(this.viewSolutionToolStripMenuItem_Click);
+            // 
+            // viewRepositoryToolStripMenuItem
+            // 
+            this.viewRepositoryToolStripMenuItem.Name = "viewRepositoryToolStripMenuItem";
+            this.viewRepositoryToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
+            this.viewRepositoryToolStripMenuItem.Text = "View Repository";
             // 
             // User
             // 

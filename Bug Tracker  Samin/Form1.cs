@@ -36,14 +36,42 @@ namespace Bug_Tracker__Samin
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-D2MOLFD;Initial Catalog=Bug Detector Samin;Integrated Security=True");
-            SqlDataAdapter sda = new SqlDataAdapter("SELECT COUNT (*) FROM LOGIN WHERE USERNAME = '"+textBox1.Text+"' AND PASSWORD = '"+textBox2.Text+"'", con);
+            SqlDataAdapter sda = new SqlDataAdapter("SELECT Role FROM LOGIN WHERE USERNAME = '"+textBox1.Text+"' AND PASSWORD = '"+textBox2.Text+"'", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            if (dt.Rows[0][0].ToString() == "1")
+            Bug_Detector_SaminEntities bds = new Bug_Detector_SaminEntities();
+            if (dt.Rows[0][0].ToString() == "admin")
             {
+                var item = bds.Logins.Where(a => a.Username == textBox1.Text).SingleOrDefault();
+                UserSessionModel session = new UserSessionModel();
+                session.UserName = item.Username;
                 this.Hide();
-                Admin aa = new Admin();
+                Admin aa = new Admin(session);
                 aa.Show();
+            }
+            else if (dt.Rows[0][0].ToString() == "developer")
+            {
+                var item = bds.Logins.Where(a => a.Username == textBox1.Text).SingleOrDefault();
+                UserSessionModel session = new UserSessionModel();
+                session.UserName = item.Username;
+                developer d = new developer(session);
+                this.Hide();
+                d.Show();
+            }
+
+            else if (dt.Rows[0][0].ToString() == "user")
+            {
+                var item = bds.Logins.Where(a => a.Username == textBox1.Text).SingleOrDefault();
+                UserSessionModel session = new UserSessionModel();
+                session.UserName = item.Username;
+                User u = new User(session);
+                this.Hide();
+                u.Show();
+            }
+
+            else
+            {
+                MessageBox.Show("Invalid User Name or Password");
             }
         }
 

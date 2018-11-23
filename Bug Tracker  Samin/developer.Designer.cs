@@ -59,6 +59,7 @@
             this.viewBugsToolStripMenuItem.Name = "viewBugsToolStripMenuItem";
             this.viewBugsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.viewBugsToolStripMenuItem.Text = "View Bugs";
+            this.viewBugsToolStripMenuItem.Click += new System.EventHandler(this.viewBugsToolStripMenuItem_Click);
             // 
             // repositoryViewToolStripMenuItem
             // 

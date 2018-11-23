@@ -1,0 +1,23 @@
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\bin\Debug\Bug Tracker  Samin.exe.config
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\bin\Debug\Bug Tracker  Samin.exe
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\bin\Debug\Bug Tracker  Samin.pdb
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug Tracker  Samin.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.Form1.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.Properties.Resources.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.Register.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug Tracker  Samin.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug Tracker  Samin.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug Tracker  Samin.exe
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug Tracker  Samin.pdb
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.Admin.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.Bug_Details.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.Developer_View_Bug.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.developer.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.User_Add_Bug.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.User.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug_Tracker__Samin.User_Solution.resources
+C:\Users\lenovo\source\repos\Bug Tracker  Samin\Bug Tracker  Samin\obj\Debug\Bug Tracker  Samin.csproj.CopyComplete

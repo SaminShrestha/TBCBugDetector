@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bugHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.repositoryViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,11 +56,18 @@
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.optionsToolStripMenuItem.Text = "Options";
             // 
+            // addUserToolStripMenuItem
+            // 
+            this.addUserToolStripMenuItem.Name = "addUserToolStripMenuItem";
+            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addUserToolStripMenuItem.Text = "Add User";
+            // 
             // bugHistoryToolStripMenuItem
             // 
             this.bugHistoryToolStripMenuItem.Name = "bugHistoryToolStripMenuItem";
             this.bugHistoryToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.bugHistoryToolStripMenuItem.Text = "Bug History";
+            this.bugHistoryToolStripMenuItem.Click += new System.EventHandler(this.bugHistoryToolStripMenuItem_Click);
             // 
             // repositoryViewToolStripMenuItem
             // 
@@ -68,12 +75,6 @@
             this.repositoryViewToolStripMenuItem.Size = new System.Drawing.Size(103, 20);
             this.repositoryViewToolStripMenuItem.Text = "View Repository";
             this.repositoryViewToolStripMenuItem.Click += new System.EventHandler(this.repositoryViewToolStripMenuItem_Click);
-            // 
-            // addUserToolStripMenuItem
-            // 
-            this.addUserToolStripMenuItem.Name = "addUserToolStripMenuItem";
-            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.addUserToolStripMenuItem.Text = "Add User";
             // 
             // Admin
             // 
